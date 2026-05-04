@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ScentVault | Catálogo de Fragancias</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="navbar">
+        <h1 class="logo">WJ<span>OB</span></h1>
+        <div class="search-bar">
+            <input type="text" placeholder="Buscar aroma, notas, casas...">
+        </div>
+    </header>
+
+    <main class="container">
+        <aside class="sidebar">
+            <h3>Filtros</h3>
+            <div class="filter-group">
+                <h4>Casas</h4>
+                <label><input type="checkbox"> Lattafa</label>
+                <label><input type="checkbox"> Maison Alhambra</label>
+                <label><input type="checkbox"> Rasasi</label>
+            </div>
+            <div class="filter-group">
+                <h4>Familia Olfativa</h4>
+                <label><input type="checkbox"> Amaderado</label>
+                <label><input type="checkbox"> Especiado</label>
+                <label><input type="checkbox"> Cítrico</label>
+            </div>
+        </aside>
+
+        <section class="products-grid">
+            <article class="perfume-card">
+                <div class="image-wrapper">
+                    <span class="badge">Popular</span>
+                    <img src="Imagenes/asad_lattafa.png" alt="Asad Lattafa">
+                </div>
+                <div class="card-content">
+                    <span class="brand">Lattafa</span>
+                    <h2 class="model">Asad</h2>
+                    <p class="notes">Pimienta Negra, Tabaco, Vainilla</p>
+                    <div class="card-footer">
+                        <span class="price">$1,850</span>
+                        <button class="btn-details">Detalles</button>
+                    </div>
+                </div>
+            </article>
+
+            <article class="perfume-card">
+                <div class="image-wrapper">
+                    <img src="Imagenes/kanrha.png" alt="Khamrah">
+                </div>
+                <div class="card-content">
+                    <span class="brand">Lattafa</span>
+                    <h2 class="model">Khamrah</h2>
+                    <p class="notes">Canela, Dátiles, Praliné</p>
+                    <div class="card-footer">
+                        <span class="price">$2,100</span>
+                        <button class="btn-details">Detalles</button>
+                    </div>
+                </div>
+            </article>
+
+            <article class="perfume-card">
+                <div class="image-wrapper">
+                    <img src="Imagenes/jean_lowe.png" alt="The Fawy">
+                </div>
+                <div class="card-content">
+                    <span class="brand">Maison Alhambra</span>
+                    <h2 class="model">Jean lowe</h2>
+                    <p class="notes">Cuero, Ámbar, Notas Florales</p>
+                    <div class="card-footer">
+                        <span class="price">$1,600</span>
+                        <button class="btn-details">Detalles</button>
+                    </div>
+                </div>
+            </article>
+
+              <article class="perfume-card">
+                <div class="image-wrapper">
+                    <img src="Imagenes/HAWAS.png" alt="hawas ice">
+                </div>
+                <div class="card-content">
+                    <span class="brand">Rasasi</span>
+                    <h2 class="model">hawas ice</h2>
+                    <p class="notes">citrico, dulce, acuatico</p>
+                    <div class="card-footer">
+                        <span class="price">$2,700</span>
+                        <button class="btn-details">Detalles</button>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+
+</body>
+</html>
